@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AEUA,OAAO,CAAC,+EAAI;AAPZ,UAAU;EACR,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,6CAA6C;EAClD,GAAG,EAAE,8CAA8C,EACjD,+CAA+C;;;AGPnD,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EAEV,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EHPL,OAAO,EAAE,UAAU;CGQ1B",
+    "sources": [
+        "main.scss",
+        "_config.scss",
+        "config/_typography.scss",
+        "config/_mixins.scss",
+        "config/_variables.scss",
+        "_base.scss",
+        "components/_header.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
