@@ -1,8 +1,8 @@
-$metropolis: "Metropolis", sans-serif;
-$inter: "Inter", sans-serif;
+$metropolis: "Metropolis";
+$inter: "Inter";
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: $metropolis;
   src: url("../../assets/fonts/Metropolis-Bold.ttf");
   src: url("../../assets/fonts/Metropolis-Bold.woff"),
     url("../../assets/fonts/Metropolis-Bold.woff2");
@@ -12,3 +12,4 @@ $inter: "Inter", sans-serif;
 
 $normal: 400;
 $bold: 700;
+
