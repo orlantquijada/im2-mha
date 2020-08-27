@@ -2,6 +2,27 @@
   flex-grow: 1;
   background-color: $gray0;
 
+  .add {
+    position: absolute;
+    right: 6rem;
+    bottom: 5rem;
+
+    &__btn {
+      background-color: $light-red;
+      border: none;
+      border-radius: $default-radius;
+      font-weight: $bold;
+      padding: 1.25rem;
+      border: 1px solid black;
+      cursor: pointer;
+      transition: filter 200ms ease;
+
+      &:hover {
+        filter: brightness(95%);
+      }
+    }
+  }
+
   .container {
     padding-top: 4rem;
     max-height: 80vh;
