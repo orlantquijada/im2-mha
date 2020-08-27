@@ -86,8 +86,15 @@ body {
 
 .main-content .add {
   position: absolute;
-  right: 6rem;
+  right: 7rem;
   bottom: 5rem;
+}
+
+@media only screen and (max-width: 1440px) {
+  .main-content .add {
+    right: 2rem;
+    bottom: 2rem;
+  }
 }
 
 .main-content .add__btn {
